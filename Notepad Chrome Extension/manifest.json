@@ -1,0 +1,19 @@
+{
+  "name": "Notepad",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A simple notepad for Webflow.",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "browser_action": {
+    "default_title": "Notepad",
+    "default_popup": "popup.html"
+  }
+}
